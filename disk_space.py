@@ -1,4 +1,4 @@
-import psutil
+import psutil # pip install psutil
 
 def get_disk_usage(path='/'):
     disk_info = psutil.disk_usage(path)
